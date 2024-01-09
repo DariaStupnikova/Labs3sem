@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lab5.AddTaskDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Task" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <Label Content="Title"/>
+            <TextBox Text="{Binding NewTask.Title, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Label Content="Description"/>
+            <TextBox Text="{Binding NewTask.Description, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Label Content="Deadline"/>
+            <DatePicker SelectedDate="{Binding NewTask.Deadline, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Label Content="Tags"/>
+            <TextBox Text="{Binding TagsString, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Text="Input tags divided by ',' ex. tag1,tag2,etc" />
+            <ItemsControl ItemsSource="{Binding NewTask.Tags}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" Margin="0,0,0,5"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Button Content="OK" Click="OkButton_Click"/>
+            <Button Content="Cancel" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

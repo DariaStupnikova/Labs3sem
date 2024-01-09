@@ -1,0 +1,42 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\nikha\RiderProjects\DesignLabsCS\lab1\bin\Debug\net7.0\lab1.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\nikha\RiderProjects\DesignLabsCS\Lab3\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ec0e5f5_002Dff4d_002D4885_002Dbc6c_002D5594ec15502a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TasksControllerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::033EB989-1905-4CAF-B0F2-E212AD047ABC::net7.0::Lab4.Tests.TasksControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7c2487b6_002D7c8f_002D4f54_002Db84e_002D0627a8a97a48/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TaskItem_Constructor_SetsPropertiesCorrectly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests.TaskItem_Constructor_SetsPropertiesCorrectly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests.ToDoListService_AddTask_AddsTaskToList&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7cc117fe_002Dd80b_002D45ae_002Db54a_002D8ca99c9312fb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TaskItemTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9dd08ce5_002D0354_002D420c_002Db877_002D95096c47c349/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConsoleInterface_AddTask_ReturnsValidTask" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests.ConsoleInterface_AddTask_ReturnsValidTask&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec4fcb71_002D1627_002D447b_002D9752_002Db080f3dc560f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TasksControllerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::033EB989-1905-4CAF-B0F2-E212AD047ABC::net7.0::Lab4.Tests.TasksControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

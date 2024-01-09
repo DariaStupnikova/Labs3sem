@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KNSCCrsCRKfkQ6dV92bQL3Z/v0+8RpB5ZBpjKTWTpF2jJWZB6CkzFmLNr4Y+JH3OjNS2vUOAkAEKCUkhvZ0S2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikha\\RiderProjects\\Labs3sem\\lab1\\Task2\\Task2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.1.7\\sqlitepclraw.bundle_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.7\\sqlitepclraw.provider.sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
