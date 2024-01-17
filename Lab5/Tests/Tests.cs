@@ -18,7 +18,6 @@ namespace Lab5.Tests
             var mockDataStorage = new Mock<DataStorage>();
             var mockEditTaskViewModel = new Mock<EditTaskViewModel>();
 
-            // Sample data for testing
             var selectedTask = new TaskItem
             {
                 Title = "Task1",
@@ -73,7 +72,7 @@ namespace Lab5.Tests
             mainWindow.InitializeComponent();
 
             // Assert
-            Assert.Equal(2, mainWindow._taskItems.Count); // Two tasks should be loaded during initialization
+            Assert.Equal(2, mainWindow._taskItems.Count);
             Assert.Equal("Task1", mainWindow._taskItems[0].Title);
             Assert.Equal("Task2", mainWindow._taskItems[1].Title);
         }
@@ -92,7 +91,7 @@ namespace Lab5.Tests
             editTaskDialog.OkButton_Click(null, null);
 
             // Assert
-            Assert.True(editTaskDialog.DialogResult); // DialogResult should be set to true
+            Assert.True(editTaskDialog.DialogResult);
         }
 
         [Fact]
@@ -106,10 +105,9 @@ namespace Lab5.Tests
             editTaskDialog.CancelButton_Click(null, null);
 
             // Assert
-            Assert.False(editTaskDialog.DialogResult); // DialogResult should be set to false
+            Assert.False(editTaskDialog.DialogResult);
         }
 
-        // Add more tests as needed
     }
     
     public class Test
