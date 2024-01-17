@@ -15,8 +15,8 @@ namespace Lab5
 {
     public partial class MainWindow : Window
     {
-        private DataStorage _dataStorage = new DataStorage();
-        private ObservableCollection<TaskItem> _taskItems;
+        public DataStorage _dataStorage = new DataStorage();
+        public ObservableCollection<TaskItem> _taskItems;
 
         public MainWindow()
         {
@@ -25,7 +25,7 @@ namespace Lab5
             taskListView.ItemsSource = _taskItems; // Basicly loading from sqlite
         }
 
-        private void EditMenuItem_Click(object sender, RoutedEventArgs e)
+        public void EditMenuItem_Click(object sender, RoutedEventArgs e)
         {
             if (taskListView.SelectedItem != null)
             {

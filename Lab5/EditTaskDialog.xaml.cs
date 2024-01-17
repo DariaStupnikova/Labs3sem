@@ -15,13 +15,13 @@ namespace Lab5
             DataContext = ViewModel;
         }
 
-        private void OkButton_Click(object sender, RoutedEventArgs e)
+        public void OkButton_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = true;
             Close();
         }
 
-        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        public void CancelButton_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = false;
             Close();
